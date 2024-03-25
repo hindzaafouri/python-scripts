@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "insights-logs-auditlogs/tenantId={tenantId}/y={year}/m={month}/d={day}/h={hour}/m={minute}/{name}",
+      "connection": "dummy01storage_STORAGE"
+    }
+  ]
+}
