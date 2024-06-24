@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "blob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "sqldbauditlogs/{server}/{database}/SqlDbAuditing_Audit_NoRetention/{date}/{name}.xel",
+      "connection": "dummy01storage_STORAGE"
+    }
+  ]
+}

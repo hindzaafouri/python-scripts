@@ -1,6 +1,6 @@
 import requests
 import json
-from utils.azure_auth import auth_vars
+from utils.azure_auth import auth_vars 
 
 
 blob_service_client = auth_vars()
