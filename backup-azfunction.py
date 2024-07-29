@@ -55,7 +55,6 @@ def fetch_audit_logs(conn, blob_url):
       AND statement NOT LIKE '%FROM sys.tables%'
       AND statement NOT LIKE '%FROM sys.columns%'
       AND statement NOT LIKE '%FROM sys.indexes%'
-      AND statement NOT LIKE 'select 1'
     """
     
     logging.info(f"Executing query: {query}")
@@ -99,13 +98,13 @@ def csv_to_json(data):
 
 def upload_to_blob(json_data, blob_name):
     try:
-        storage_account_name = os.getenv('STORAGE_ACCOUNT_NAME')
+        storage_account_name = "dummy01storage"
         
         credential = DefaultAzureCredential(exclude_interactive_browser_credential=False)
         
         blob_service_client = BlobServiceClient(account_url=f"https://{storage_account_name}.blob.core.windows.net", credential=credential)
         
-        container_name = os.getenv('TARGET_CONTAINER_NAME')
+        container_name = "sqldbauditlogs-json"
         container_client = blob_service_client.get_container_client(container_name)
         
         blob_client = container_client.get_blob_client(blob_name)
@@ -126,7 +125,7 @@ def main(blob: func.InputStream):
             logging.error("Invalid blob path format.")
             return
         
-        storage_account_name = os.getenv('STORAGE_ACCOUNT_NAME')
+        storage_account_name = "dummy01storage" 
         container_name = parts[0]  # sqldbauditlogs
         server = parts[1]   # server-firsttest
         database = parts[2]  # db03

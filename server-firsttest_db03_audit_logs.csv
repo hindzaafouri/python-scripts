@@ -1,0 +1,25 @@
+event_time,client_ip,application,duration,hostname,action_id,succeeded,session_server_principal_name,database_name,statement
+2024-06-28 10:33:44.310494,196.235.135.24,Azure SQL Query Editor,0,MN000008,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select 1
+2024-06-28 10:33:59.716741,196.235.135.24,Azure SQL Query Editor,4,MN000006,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 10:46:57.513473,196.235.135.24,Azure SQL Query Editor,0,MN000000,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 10:47:45.200970,196.235.135.24,Azure SQL Query Editor,0,MN00000C,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 10:50:25.232196,196.235.135.24,Azure SQL Query Editor,0,MN000006,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,"insert into [dbo].[TestTable] values (5,""Abderramen"")"
+2024-06-28 10:50:38.388423,196.235.135.24,Azure SQL Query Editor,0,MN000006,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 10:50:45.341544,196.235.135.24,Azure SQL Query Editor,0,MN000006,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,"insert into [dbo].[TestTable] values (5,Abderramen)"
+2024-06-28 10:50:54.122793,196.235.135.24,Azure SQL Query Editor,0,MN000006,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 10:51:06.388417,196.235.135.24,Azure SQL Query Editor,0,MN000006,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,desc [dbo].[TestTable]
+2024-06-28 10:52:40.138424,196.235.135.24,Azure SQL Query Editor,0,MN000000,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,DESC  [dbo].[TestTable]
+2024-06-28 10:52:45.607156,196.235.135.24,Azure SQL Query Editor,0,MN000002,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 10:53:26.154044,196.235.135.24,Azure SQL Query Editor,0,MN000002,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,"INSERT INTO [dbo].[TestTable] (ID, Name) VALUES (5,Abderramen)"
+2024-06-28 10:53:33.216543,196.235.135.24,Azure SQL Query Editor,0,MN000002,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,"INSERT INTO [dbo].[TestTable] (ID, Name) VALUES (5,""Abderramen"")"
+2024-06-28 10:53:41.169651,196.235.135.24,Azure SQL Query Editor,43,MN00000A,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,"INSERT INTO [dbo].[TestTable] (ID, Name) VALUES (5,'Abderramen')"
+2024-06-28 11:11:01.153694,196.235.135.24,Azure SQL Query Editor,0,MN00000A,BCM ,False,live.com#hindzaafouri2@gmail.com,db03,"insert into [dbo].[TestTable] values (6,Latifa)"
+2024-06-28 11:11:09.622444,196.235.135.24,Azure SQL Query Editor,0,MN00000A,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 11:11:25.481795,196.235.135.24,Azure SQL Query Editor,46,MN00000A,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,"INSERT INTO [dbo].[TestTable] (ID, Name) VALUES (6,'Latifa')"
+2024-06-28 11:14:18.637961,196.235.135.24,Azure SQL Query Editor,70,MN00000C,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,"INSERT INTO [dbo].[TestTable] (ID, Name) VALUES (7,'Yesmine')"
+2024-06-28 11:14:20.716100,196.235.135.24,Azure SQL Query Editor,0,MN00000C,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 11:18:19.778501,196.235.135.24,Azure SQL Query Editor,45,MN000002,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,"INSERT INTO [dbo].[TestTable] (ID, Name) VALUES (8,'Nerimene')"
+2024-06-28 11:18:21.247237,196.235.135.24,Azure SQL Query Editor,0,MN000002,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 11:26:51.043971,196.235.135.24,Azure SQL Query Editor,0,MN00000C,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
+2024-06-28 13:11:20.370610,196.235.135.24,Azure SQL Query Editor,0,MN000008,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select 1
+2024-06-28 13:12:37.448689,196.235.135.24,Azure SQL Query Editor,0,MN000007,BCM ,True,live.com#hindzaafouri2@gmail.com,db03,select * from [dbo].[TestTable]
